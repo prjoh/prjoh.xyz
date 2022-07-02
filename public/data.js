@@ -288,6 +288,13 @@ export const data = {
       rotation: new THREE.Euler(0, 0, 0),
       scale: new THREE.Vector3(0.65, 0.65, 0.65)
     },
+    {
+      path: "./img/twitter-icon.svg",
+      interactable: true,
+      position: new THREE.Vector3(0.0, 4.5, -124.99),
+      rotation: new THREE.Euler(0, 0, 0),
+      scale: new THREE.Vector3(0.65, 0.65, 0.65)
+    },
     // {
     //   path: "./img/itchio-icon.svg",
     //   interactable: true,

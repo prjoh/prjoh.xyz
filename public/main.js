@@ -387,6 +387,10 @@ function init_scene() {
       obj.AddComponent(new OnClickOpenURLComponent({
         url: 'https://www.linkedin.com/in/johannes-przybilla-329b64b7/'
       }));
+    else if (e.path.includes('twitter'))
+      obj.AddComponent(new OnClickOpenURLComponent({
+        url: 'https://twitter.com/prjoh_dev'
+      }));
     else if (e.path.includes('itchio'))
       obj.AddComponent(new OnClickOpenURLComponent({
         url: 'https://prjoh.itch.io/'
