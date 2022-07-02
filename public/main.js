@@ -57,7 +57,10 @@ if (hasTouchScreen)
     const isHorizontal = orientationQuery.matches;
 
     if (isHorizontal)
+    {
       orientationHint.classList.add('hidden');
+      on_window_resize();
+    }
     else
       orientationHint.classList.remove('hidden');
 
