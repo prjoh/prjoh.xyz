@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" />
+  <title>prjoh</title>
+</head>
+<body>
+  <script src="./main.js" type="module"></script>
+  <div class="app">
+    <div class="device-orientation-hint" id="device-orientation-hint">
+        <div class="device-orientation-hint-rect" id="orientation-rect-1"></div>
+        <div>Please rotate your device into horizontal position.</div>
+    </div>
+    <div class="loading-screen" id="loading-screen">
+            <div class="loading-bar-overflow">
+                <div class="loading-bar" id="loading-bar"></div>
+            </div>
+            <div class="progress">
+                <span class="progress-value" id="progress-value">0%</span>
+                <span class="progress-message" id="progress-message">Loading Files ...</span>
+            </div>
+    </div>
+    <header class="app-header" id="app-header">
+          <h1>Johannes Przybilla</h1>
+          <h2>Games | Design | Robotics</h2>
+      </header>
+    <div class="scene" id="scene">
+      <div class="scene-canvas" id="scene-canvas"></div>
+<!--      <div class="scene-ui" id="scene-ui">-->
+<!--        <div class="scene-ui-camera" id="ui-camera">-->
+<!--          HELLO WORLD-->
+<!--        </div>-->
+<!--        <div class="scene-ui-hover-click-state" id="ui-hover-click-state">-->
+<!--          HELLO WORLD-->
+<!--        </div>-->
+<!--        <div class="scene-ui-buttons">-->
+<!--          <button class="scene-ui-pause" id="scene-ui-pause">-->
+<!--            Render Toggle: ON-->
+<!--          </button>-->
+<!--        </div>-->
+<!--      </div>-->
+      <div class="scene-overlay">
+        <div class="scene-overlay-content-container" id="content-container">
+          <!-- Robotics Content -->
+          <div class="scene-overlay-content" id="content-robot">
+            <div class="scene-overlay-content-header">
+                <div class="scene-overlay-content-title">
+                    <h1>ROBOTICS</h1>
+                </div>
+                <div class="scene-overlay-button-container">
+                    <button class="scene-overlay-button"/>
+                </div>
+            </div>
+            <div class="scene-overlay-content-body">
+                <!-- Soft Robotic Gripper -->
+                <h2>Soft Robotic Pneumatic Gripper</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc5uwdxG9UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>In late 2018 I had the opportunity to take part in the Media Computing Project of the Human-Computer-Interaction chair of my university. My team ended up creating a soft robotic pneumatic gripper, based on the PneuNets Bending Actuator.</p>
+                <!-- MAKI -->
+                <h2>3D Printed Social Robot – MAKI</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0kZEIflnXfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>During my time as a research assistant at the RWTH University Chair Individual and Technology, I worked as part of an industrial project on a 3D printable robot called MAKI. We used the open source materials by Hello Robo to print the robot in-house.</p>
+                <p>Another part of my job was the development of firmware and higher level user software for robot control.</p>
+                <!-- Molcure -->
+                <h2>株式会社MOLCURE – HAIVE, Oculus, myCobot & ROS</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WPOd4kD9PZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>Currently I am employed as a software engineer at Molcure's robotics department. During my time here I have been filling out multiple responsibilities.</p>
+                <p>From system design, to user interface development, embedded programming, simulation and virtual reality development, I have also had the chance to lead small teams during project sprints.</p>
+            </div>
+          </div>
+          <!-- VR Content -->
+          <div class="scene-overlay-content" id="content-vr">
+            <div class="scene-overlay-content-header">
+                <div class="scene-overlay-content-title">
+                    <h1>VIRTUAL REALITY</h1>
+                </div>
+                <div class="scene-overlay-button-container">
+                    <button class="scene-overlay-button"/>
+                </div>
+            </div>
+            <div class="scene-overlay-content-body">
+                <!-- Parallax View -->
+                <h2>Off-Axis Projection – ParallaxView</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xTZo_7CI4fI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>A small side project, where I implemented off-axis projection correction using eye-tracking. This uses a facial landmark detector included in the dlib library.</p>
+                <!-- Molcure HAIVE VR -->
+                <h2>株式会社MOLCURE – HAIVE VR</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tOn8bZphQks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>VR Experience for exhibiton purposes of Molcure's HAIVE system. Created for Oculus Quest 2 using Unity and Blender.</p>
+                <!-- metapo -->
+                <h2>kyopalab合同会社 – metapo</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kLnLgwt89O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>Development progress of a VR telepresence application in the context of the metapo project (Feb~Mar '22).</p>
+            </div>
+          </div>
+          <!-- Games Content -->
+          <div class="scene-overlay-content" id="content-games">
+            <div class="scene-overlay-content-header">
+                <div class="scene-overlay-content-title">
+                    <h1>GAME DEVELOPMENT</h1>
+                </div>
+                <div class="scene-overlay-button-container">
+                    <button class="scene-overlay-button"/>
+                </div>
+            </div>
+            <div class="scene-overlay-content-body">
+                <h2>More Coming Soon!</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/f10T6t6bSI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+<!--                <h2>Bubble Shooter</h2>-->
+<!--                <h2>Mahjong</h2>-->
+<!--                <h2>2D Brawler Prototype</h2>-->
+            </div>
+          </div>
+          <!-- Other Content -->
+          <div class="scene-overlay-content" id="content-other">
+            <div class="scene-overlay-content-header">
+                <div class="scene-overlay-content-title">
+                    <h1>OTHER PROJECTS</h1>
+                </div>
+                <div class="scene-overlay-button-container">
+                    <button class="scene-overlay-button"/>
+                </div>
+            </div>
+            <div class="scene-overlay-content-body">
+                <!-- Web Dev -->
+                <h2>Web Development - SPA</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4_J1WJv-yTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>During my time at Molcure I had the chance to develop SPA prototypes, utilizing technologies like React, ThreeJS, Docker and AWS. The backend was a simple webserver written in Go implementing tokenized authentication based on the OAuth protocol.</p>
+                <div class="scene-overlay-content-video-container">
+                    <img src="img/webclient.png" alt="Webclient" width="800" height="660">
+                    <img src="img/webservice.png" alt="Webservice" width="800" height="548">
+                </div>
+                <!-- Qt -->
+                <h2>Qt</h2>
+                <div class="scene-overlay-content-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6XOdRtsnwJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>Creating powerful user applications in our robotics context at Molcure is a must. For that we like to utilize the capabilities of the Qt framework.</p>
+                <!-- COVID-19 -->
+                <h2>COVID-19 Data Analysis</h2>
+                <div class="scene-overlay-content-video-container">
+                    <img src="img/corona.png" alt="Corona" width="800" height="450">
+                </div>
+                <p>During the first phase of the COVID-19 pandemic (Jan~Mar '20), there was not any easily accessible information on case numbers. At that time I created a small script that accessed the public API of the WHO and downloaded the daily reports, to plot my own case number graphs.</p>
+                <!-- SmallGL -->
+                <h2>SmallGL - Graphics Engine</h2>
+                <div class="scene-overlay-content-video-container">
+                    <img src="img/smallgl.png" alt="SmallGL" width="560" height="315">
+                </div>
+                <p>After learning the basics of 3D rendering and OpenGL at university, I got myself into WebGL. I started to write my own small engine, with no clear goal in mind, except trying to build something from what I have learned. The result can be viewed in the form of <a href="https://github.com/prjoh/SmallGL" target="_blank">code</a> or as a <a href="https://prjoh.github.io/SmallGL/" target="_blank">demo</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      <div class="canvas-overlay" id="overlay-canvas-container">-->
+<!--          <div class="canvas-overlay-wip">Work In Progress. Come back soon!</div>-->
+<!--          <div class="canvas-overlay-canvas-container" id="overlay-canvas-container2"></div>-->
+<!--          <button class="canvas-overlay-close-bttn">Close</button>-->
+<!--      </div>-->
+    </div>
+  </div>
+</body>
+</html>

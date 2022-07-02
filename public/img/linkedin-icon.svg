@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   version="1.1"
+   width="1pc"
+   height="1pc"
+   viewBox="0 0 16 16"
+   sodipodi:docname="linkedin-icon2.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     units="pc"
+     inkscape:zoom="34.473566"
+     inkscape:cx="9.5000326"
+     inkscape:cy="8.9053741"
+     inkscape:window-width="1312"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg"
+     inkscape:document-units="pc" />
+  <g
+     id="svgg"
+     transform="matrix(0.03990884,0,0,0.03990884,0.03456802,0.01610258)">
+    <path
+       id="path0"
+       d="M 27.344,1.785 C 14.931,6.049 4.875,16.478 1.245,28.853 c -2.158,7.356 -1.871,336.156 0.299,343.135 3.853,12.388 14.77,23.089 27.309,26.767 7.356,2.158 336.156,1.871 343.135,-0.299 12.388,-3.853 23.089,-14.77 26.767,-27.309 1.903,-6.486 1.903,-335.808 0,-342.294 C 395.077,16.314 384.376,5.397 371.988,1.544 367.107,0.026 364.199,0 199.722,0.02 l -167.3,0.02 -5.078,1.745 m 71.952,54.01 c 26.442,8.026 34.851,39.87 15.61,59.111 -22.172,22.173 -60.162,6.572 -60.21,-24.725 -0.036,-23.254 22.933,-40.962 44.6,-34.386 m 187.278,102.826 c 22.504,5.623 42.301,24.358 49.658,46.995 3.276,10.077 3.612,17.296 3.612,77.556 v 56.672 h -29.688 -29.687 v -53.409 c 0,-32.81 -0.306,-55.032 -0.792,-57.617 -5.317,-28.243 -44.117,-33.84 -56.63,-8.17 -3.358,6.889 -3.516,9.832 -3.516,65.787 v 53.409 H 189.844 160.156 V 250 160.156 h 29.668 29.668 l 0.215,12.166 0.215,12.166 4.588,-5.33 c 16.079,-18.679 39.061,-26.284 62.064,-20.537 M 119.531,250 v 89.844 H 89.844 60.156 V 250 160.156 h 29.688 29.687 V 250"
+       stroke="none"
+       fill="#000000"
+       fill-rule="evenodd" />
+  </g>
+</svg>
