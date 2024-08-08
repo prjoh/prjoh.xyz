@@ -374,9 +374,9 @@ function init_scene() {
       interactables.push(obj);
     }
     contact_group.push(obj)
-    if (e.path.includes('bitbucket'))
+    if (e.path.includes('github'))
       obj.AddComponent(new OnClickOpenURLComponent({
-        url: 'https://bitbucket.org/prjoh/'
+        url: 'https://github.com/prjoh'
       }));
     else if (e.path.includes('youtube'))
       obj.AddComponent(new OnClickOpenURLComponent({

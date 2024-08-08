@@ -254,12 +254,19 @@ export const data = {
   ],
   graphics: [
     {
-      path: "./img/bitbucket-icon.svg",
+      path: "./img/github-icon.svg",
       interactable: true,
       position: new THREE.Vector3(0.0, 4.5, -124.99),
       rotation: new THREE.Euler(0, 0, 0),
       scale: new THREE.Vector3(0.65, 0.65, 0.65)
     },
+    // {
+    //   path: "./img/bitbucket-icon.svg",
+    //   interactable: true,
+    //   position: new THREE.Vector3(0.0, 4.5, -124.99),
+    //   rotation: new THREE.Euler(0, 0, 0),
+    //   scale: new THREE.Vector3(0.65, 0.65, 0.65)
+    // },
     {
       path: "./img/cv-icon.svg",
       interactable: true,
